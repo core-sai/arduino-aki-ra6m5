@@ -1,0 +1,78 @@
+{
+    "packages":
+	[
+        {
+            "name": "RA6M5",
+            "maintainer": "Developer",
+            "websiteURL": "https://www.renesas.com/jp/ja/products/microcontrollers-microprocessors/ra-cortex-m-mcus/ek-ra6m5-evaluation-kit-ra6m5-mcu-group",
+            "email": "info@kari.cc",
+            "help":
+			{
+                "online": "https://www.renesas.com/"
+            },
+            "platforms":
+			[
+                {
+                    "name": "Akizuki Boards",
+                    "architecture": "RA6M5",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/core-sai/arduino-aki-ra6m5/blob/main/RA6M5-1.0.0.zip",
+                    "archiveFileName": "RA6M5-1.0.0.zip",
+                    "checksum": "SHA-256:0147d4918eb8f8ad4e3688ab175ffc2ffbdc6e5661db503dbc904f2e5c20779d",
+                    "size": "3170822",
+                    "boards":
+					[
+                        {
+                            "name": "AE-RA6M5"
+                        }
+                    ],
+                    "toolsDependencies":
+					[
+                        {
+                            "packager": "RA6M5",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "10-2020q4"
+                        },
+                        {
+                            "packager": "RA6M5",
+                            "name": "rfp",
+                            "version": "20221115"
+                        }
+                    ]
+                }
+            ],
+            "tools":
+			[
+                {
+                    "name": "arm-none-eabi-gcc",
+                    "version": "10-2020q4",
+                    "systems":
+					[
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-win32.zip",
+                            "archiveFileName": "gcc-arm-none-eabi-10-2020-q4-major-win32.zip",
+                            "checksum": "MD5:5ee6542a2af847934177bc8fa1294c0d",
+                            "size": "199785259"
+                        }
+                    ]
+                },
+                {
+                    "name": "rfp",
+                    "version": "20221115",
+                    "systems":
+					[
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/core-sai/arduino-aki-ra6m5/blob/main/rfp.zip",
+                            "archiveFileName": "rfp.zip",
+                            "checksum": "SHA-256:de05397cd30018023ff72f81678d596f9083569deb4a6dbbef854449166ba9e6",
+                            "size": "7009113"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
